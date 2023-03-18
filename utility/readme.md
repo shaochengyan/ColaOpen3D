@@ -1,0 +1,5 @@
+- [study_vector.py](study_vector.py) 展示如何使用Open3D中的vector | vector of Vector
+    - utility 下面的vector指的是 std::vector, IntVecotr: std::vector<int>, Vector3dVector: std::vector<Eigen::Vector3d>
+    - 通过 asarray 可以将其映射到 numpy, 从而被当做 numpy 来处理
+    - 由于是std::vector -> 可以调用append来添加元素, extend 来扩展元素
+    - 访问方式: a[:], a[0][0]
